@@ -4,6 +4,10 @@ function onReady() {
    const toDoList = document.getElementById('toDoList');
 
    addToDoForm.addEventListener('submit', () => {
+     event.preventDefault();
+
+     //get the text
+     let title = newToDoText.value;
 
    });
  }
