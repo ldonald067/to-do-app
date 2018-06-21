@@ -3,7 +3,9 @@ function onReady() {
    const newToDoText = document.getElementById('newToDoText');
    const toDoList = document.getElementById('toDoList');
 
-   addToDoForm.addEventListener();
+   addToDoForm.addEventListener('submit', () => {
+
+   });
  }
 
 window.onload = function () {
