@@ -1,0 +1,44 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4.5em;
+  text-align: center;
+  background-color: #bfefff;
+  font-weight: lighter;
+  color: #000000;
+}
+
+label {
+  font-size: 1em;
+  font-weight: lighter;
+  padding-left: 16px;
+}
+
+form, ul {
+  padding-left: 20%;
+}
+
+.my-mixed_case.mdl-button {
+   text-transform: none;
+}
+
+button {
+   background-color: #bfefff;
+   color: #000000;
+   padding: 5px 15px;
+   text-align: center;
+   font-size: 1em;
+   margin: 4px 2px;
+}
