@@ -1,6 +1,6 @@
 function onReady() {
   const toDos = [];
-  const addToDoForm = getElementById('addToDoForm');
+  const addToDoForm = document.getElementById('addToDoForm');
 
   function createNewToDo() {
     const newToDoText = document.getElementById('newToDoText');
