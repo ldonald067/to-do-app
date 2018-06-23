@@ -10,12 +10,16 @@ function onReady() {
     });
     newToDoText.value = '';
   }
-}
+
 
   addToDoForm.addEventListener('submit', event => {
     event.preventDefault();
-    createNewToDo();    
+    createNewToDo();
   });
+
+  renderTheUI();
+
+}
 
 window.onload = function () {
         // alert("The window has loaded!");
